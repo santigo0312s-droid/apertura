@@ -107,82 +107,33 @@ p{
     border-radius:50px;
     transition:.3s;
 }
-/* RESPONSIVE */
-
-@media (max-width: 1024px){
-
-    h1{
-        font-size: 4rem;
-    }
-
-    h2{
-        font-size: 5rem;
-    }
-
-}
-
-@media (max-width: 768px){
-
-    .hero{
-        padding: 20px;
-    }
-
-    h1{
-        font-size: 3rem;
-        line-height: 1.1;
-    }
-
-    h2{
-        font-size: 3.8rem;
-        line-height: 1.1;
-    }
-
-    p{
-        font-size: 1.1rem;
-    }
-
-    .badge{
-        font-size: 0.9rem;
-        padding: 10px 20px;
-    }
-
-    .boton{
-        width: 90%;
-        max-width: 350px;
-        padding: 15px;
-        font-size: 1rem;
-    }
-
-}
-
-@media (max-width: 480px){
-
-    h1{
-        font-size: 2.2rem;
-    }
-
-    h2{
-        font-size: 2.8rem;
-    }
-
-    p{
-        font-size: 1rem;
-    }
-
-    .linea{
-        width: 150px;
-    }
 h1{
-    font-size: clamp(2rem, 8vw, 6rem);
+    color:#fff;
+    font-size:clamp(2rem, 8vw, 6rem);
+    font-weight:900;
+    margin-top:25px;
+    text-shadow:0 0 30px rgba(255,255,255,.4);
 }
 
 h2{
-    font-size: clamp(2.5rem, 10vw, 7rem);
+    font-size:clamp(2.5rem, 10vw, 7rem);
+    font-weight:900;
+    color:#ffd700;
+    text-shadow:
+    0 0 10px #ffd700,
+    0 0 30px #ffd700,
+    0 0 60px #ffae00;
 }
 
 p{
-    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-size:clamp(1rem, 3vw, 1.5rem);
 }
+
+.boton{
+    width:auto;
+    max-width:90%;
+    padding:15px 30px;
+    font-size:clamp(0.9rem, 2vw, 1.2rem);
 }
 .boton:hover{
     transform:scale(1.1);
